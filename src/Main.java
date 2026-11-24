@@ -1,4 +1,4 @@
-import stack.StackImplementation;
+import implementation.stack.StackImplementation;
 
 void main() {
     StackImplementation<String> stack = new StackImplementation<>(1);
