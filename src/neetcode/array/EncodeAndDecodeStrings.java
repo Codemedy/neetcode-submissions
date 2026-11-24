@@ -3,7 +3,7 @@ package neetcode.array;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class EncodeAndDecodeStrings {
 
     public String encode(List<String> strs) {
         StringBuilder sb = new StringBuilder();
