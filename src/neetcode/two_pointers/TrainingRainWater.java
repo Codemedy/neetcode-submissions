@@ -4,6 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class TrainingRainWater {
+
+    //using formula min(maxLeft, maxRight) - height[i], two pointers
     public int trap1(int[] height) {
         int n = height.length;
         if (n == 0) return 0;
@@ -35,6 +37,7 @@ public class TrainingRainWater {
         return sum;
     }
 
+    //using prefix/suffix + formula
     public int trap2(int[] height) {
         int n = height.length;
         if (n == 0) return 0;
@@ -67,6 +70,7 @@ public class TrainingRainWater {
         return sum;
     }
 
+    //using monotonic stack
     public int trap(int[] height) {
         int n = height.length;
         if (n < 3) return 0;

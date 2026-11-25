@@ -1,4 +1,4 @@
-package implementation.sort;
+package implementation.sort.quick;
 
 import java.util.ArrayList;
 import java.util.List;

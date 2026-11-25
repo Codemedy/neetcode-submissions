@@ -1,4 +1,4 @@
-package implementation.sort;
+package implementation.sort.quick;
 
 public class QuickSort {
     static int partition(int[] array, int low, int high) {
