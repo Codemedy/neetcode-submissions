@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class LongestConsecutiveSequence {
 
+    //Optimal solution using HashSet O(N)
     public int longestConsecutive(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         if (nums.length == 1) return 1;
